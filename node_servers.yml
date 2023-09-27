@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  server:
+    image: node_ayrton
+    deploy:
+      replicas: 3
+    ports:
+      - "80:80"
